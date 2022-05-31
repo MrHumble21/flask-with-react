@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.qulupnay {
+  background-image: url("https://html.design/demo/floram/images/o1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 16px;
+
+
+}
+
+.blur {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 35px;
+}
+
+
+.limon{
+  background-image: url('https://html.design/demo/floram/images/o2.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 16px;
+}
+
+.qovun{
+  background-image: url('https://html.design/demo/floram/images/o3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+/* https://html.design/demo/floram/images/o3.jpg */
+
+
+* {
+  text-decoration: none !important;
+}
