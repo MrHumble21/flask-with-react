@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-transparent">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           FLORAM
